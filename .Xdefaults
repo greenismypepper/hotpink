@@ -1,0 +1,100 @@
+! Xresource file
+
+dzen2.font: -*-lemon-*-r-normal-*-*-100-*-*-*-*-*-*
+dzen2.font: -*-droidsans-*-r-normal-*-*-100-*-*-*-*-*-*
+!dzen2.foreground: #cecfd1
+!dzen2.background: #222326
+
+URxvt*depth: 24
+!URxvt*geometry: 100x25
+!URxvt.borderColor: #111113
+URxvt.internalBorder: 25
+!URxvt.cursorUnderline: true
+!URxvt.cursorBlink: true
+
+URxvt*iconFile: /usr/share/icons/Flattr/apps/scalable/bash.svg
+
+!URxvt*.transparent: true
+!URxvt*.shading:40
+
+! -- scrollbar
+URxvt.scrollstyle: plain
+URxvt.scrollBar: false
+URxvt*scrollTtyOuput: false
+URxvt*scrollWidthBuffer: true
+URxvt*scrollTtyKeypress: true
+
+! -- login shell
+URxvt*loginShell: false
+
+! -- font
+!URxvt.font: xft:Terminus:pixelsize=12
+!URxvt.font: xft:Droid Sans Mono:size=10
+!URxvt.font: xft:Ubuntu Mono:size=10
+!URxvt.font: xft:PragmataPro:size=8
+!URxvt.font: xft:Inconsolata:size=10
+!URxvt.font: xft:Liberation Mono:size=10
+!URxvt.font: xft:berry:pixelsize=12
+!URxvt.font: xft:tewi-8
+!URxvt.font: xft:terminus:size=8
+!URxvt.font: xft:tamsyn:size=8
+!URxvt.font: xft:serif:size=8
+!URxvt.boldFont:
+URxvt*letterSpace: 2
+URxvt*lineSpace: 1
+
+! -- perl
+URxvt.perl-ext-common: default,clipboard,vtwheel,matcher
+URxvt.keysym.Mod4-v: perl:clipboard:paste
+URxvt.url-launcher: /usr/local/bin/firefox-nightly
+URxvt.matcher.button: 1
+!URxvt.colorUL: #9472ec
+
+URxvt.keysym.Shift-Up: command:\033]720;1\007
+URxvt.keysym.Shift-Down: command:\033]721;1\007
+
+! -- tabs
+!URxvt.tabbed.tabbar-fg: 8
+!URxvt.tabbed.tabbar-bg: 0
+!URxvt.tabbed.tab-fg: 15
+!URxvt.tabbed.tab-bg: 0
+
+! made w/ http://terminal.sexy/
+
+! special
+*.foreground:   #fa1864
+*.background:   #ffffff
+*.cursorColor:  #fa1864
+
+
+! black
+*.color0:       #282a2e
+*.color8:       #373b41
+
+! red
+*.color1:       #ff3737
+*.color9:       #ee5050
+
+! green
+*.color2:       #becb42
+*.color10:      #d9e661
+
+! yellow
+*.color3:       #f2bd2f
+*.color11:      #f5d089
+
+! blue
+*.color4:       #5fb7ff
+*.color12:      #81a2be
+
+! magenta
+*.color5:       #85678f
+*.color13:      #b294bb
+
+! cyan
+*.color6:       #5e8d87
+*.color14:      #8abeb7
+
+! white
+*.color7:       #707880
+*.color15:      #c5c8c6
