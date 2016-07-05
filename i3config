@@ -30,8 +30,6 @@ font pango:Terminus 8
 #BACKGROUND
 exec --no-startup-id feh --bg-scale Descargas/pap7.png
 exec --no-startup-id compton --config compton.conf
-exec urxvt
-exec feh Documentos/she.png -. --zoom fill
 
 #Windows styles
 new_window none
