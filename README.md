@@ -8,6 +8,7 @@ Some configs (like the css style for firefox) can be taken from twily.info
 Dependencies:
 -I3 (Windows manager)
 -I3-gasps
+feh (background and image viewer)
 -compton (composite manager)
 -ranger (file manager)
 -figlet (text format)
